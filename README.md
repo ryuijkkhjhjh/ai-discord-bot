@@ -29,8 +29,14 @@ This Discord bot utilizes an AI image generation API to create images based on u
 1. Clone this repository.
 2. Install dependencies by running `pip install -r requirements.txt`.
 3. Obtain an API key from [VisionCraft Bot](https://t.me/VisionCraft_bot) and replace `api_key` in the code with your key.
-4. Replace the `client.run("")` line with your Discord bot token.
-5. Run the bot using `python bot.py`.
+4. Create a new Discord bot and obtain its token:
+   - Go to the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Create a new application and navigate to the "Bot" tab.
+   - Click "Add Bot" to create a bot user for your application.
+   - Copy the token provided under the bot's username and avatar.
+5. Replace the `client.run("")` line in `bot.py` with your Discord bot token.
+6. Run the bot using `python bot.py`.
+
 
 ## Dependencies
 
