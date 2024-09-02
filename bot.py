@@ -3,6 +3,7 @@ from discord import ui, app_commands
 from discord.ext import commands
 from discord.ext.commands import bot
 
+
 intents = discord.Intents.all()
 client = commands.Bot(command_prefix='>', intents=intents, case_insensitive=True, chunk_guilds_at_startup=False)
 #chunk_guilds_at_startup is for not saving guilds datas in the cache (less ram consumption)
